@@ -77,6 +77,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
+<!-- https://imgur.com/a/AE5bA1e -->
+<!-- https://i.imgur.com/HM63l4s.gif -->
 <img src="src/assets/final_project_walkthrough.gif" width="600" alt='Walkthrough GIF' />
 
 ---
