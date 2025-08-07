@@ -1,0 +1,22 @@
+.search-sort {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  align-items: center;
+}
+
+.search-sort input {
+  flex: 1;
+  padding: 0.6rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-family: 'Nunito', sans-serif;
+}
+
+.search-sort select {
+  padding: 0.6rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-family: 'Nunito', sans-serif;
+  background: white;
+}

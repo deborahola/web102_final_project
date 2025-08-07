@@ -1,0 +1,60 @@
+.navbar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff7043;
+  padding: 1rem 2rem;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+}
+
+.navbar-logo {
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.navbar-links {
+  display: flex;
+}
+.navbar-links a {
+  color: white;
+  margin-left: 2rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+.menu-button {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+@media (max-width: 410px) {
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #ff7043;
+  }
+  .navbar-links.open {
+    display: flex;
+  }
+  .navbar-links a {
+    margin: 1rem;
+  }
+  .menu-button {
+    display: block;
+  }
+}

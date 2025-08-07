@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+
+
+/* https://fonts.google.com/specimen/Nunito */
+
+/* <weight>: Use a value from 200 to 1000 */
+/* <uniquifier>: Use a unique and descriptive class name */
+
+/* .nunito-<uniquifier> {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+
+
+@media (min-width: 601px) {
+  html, #root {
+    height: 100%;
+    margin: 0;
+  }
+
+  body.no-scroll {
+    overflow: hidden;
+    height: 100%;
+  }
+
+  .app.home-page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .app.home-page .content {
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 600px) {
+  html, body, #root {
+    height: 100%;
+  }
+
+  .app.home-page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .app.home-page .content {
+    overflow: hidden;
+  }
+}
